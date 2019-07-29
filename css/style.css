@@ -1,0 +1,23 @@
+html, body {
+    background: #d1d1d1;
+}
+
+section {
+    display: block;
+    height: 100vh;
+}
+
+.navigate {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+
+@media screen and (max-height: 450px) {
+    body {
+        background: #e3e3ee;
+        position: relative;
+    }
+}
